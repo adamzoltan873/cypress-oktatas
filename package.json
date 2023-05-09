@@ -2,7 +2,10 @@
   "name": "cypress-oktatas",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx run app:serve",
+    "test": "nx e2e app-e2e --configuration=production --watch"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~16.0.0",

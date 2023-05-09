@@ -1,2 +1,6 @@
+<a href="#" class="get-all-item" *ngFor="let item of getAllResponse" (click)="getDetails(item.id)">Részletek ({{item.id}})</a>
+<br>
+{{getDetail?.label}}
 <cypress-oktatas-nx-welcome></cypress-oktatas-nx-welcome>
 <router-outlet></router-outlet>
+
